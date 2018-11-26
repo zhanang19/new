@@ -1,0 +1,238 @@
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+    
+  .clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12,
+  .col-kecil-1, .col-kecil-2, .col-kecil-3, .col-kecil-4, .col-kecil-5, .col-kecil-6, .col-kecil-7, .col-kecil-8, .col-kecil-9, .col-kecil-10, .col-kecil-11, .col-kecil-12,
+  .col-besar-1, .col-besar-2, .col-besar-3, .col-besar-4, .col-besar-5, .col-besar-6, .col-besar-7, .col-besar-8, .col-besar-9, .col-besar-10, .col-besar-11, .col-besar-12 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col-1 {
+    flex: 0 0 8.3333333333%;
+    max-width: 8.3333333333%;
+  }
+  
+  .col-2 {
+    flex: 0 0 16.6666666667%;
+    max-width: 16.6666666667%;
+  }
+  
+  .col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .col-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+  
+  .col-5 {
+    flex: 0 0 41.6666666667%;
+    max-width: 41.6666666667%;
+  }
+  
+  .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .col-7 {
+    flex: 0 0 58.3333333333%;
+    max-width: 58.3333333333%;
+  }
+  
+  .col-8 {
+    flex: 0 0 66.6666666667%;
+    max-width: 66.6666666667%;
+  }
+  
+  .col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+  
+  .col-10 {
+    flex: 0 0 83.3333333333%;
+    max-width: 83.3333333333%;
+  }
+  
+  .col-11 {
+    flex: 0 0 91.6666666667%;
+    max-width: 91.6666666667%;
+  }
+  
+  .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+    
+  @media (min-width: 576px) {
+    .col-kecil-1 {
+      flex: 0 0 8.3333333333%;
+      max-width: 8.3333333333%;
+    }
+    .col-kecil-2 {
+      flex: 0 0 16.6666666667%;
+      max-width: 16.6666666667%;
+    }
+    .col-kecil-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    .col-kecil-4 {
+      flex: 0 0 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+    .col-kecil-5 {
+      flex: 0 0 41.6666666667%;
+      max-width: 41.6666666667%;
+    }
+    .col-kecil-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .col-kecil-7 {
+      flex: 0 0 58.3333333333%;
+      max-width: 58.3333333333%;
+    }
+    .col-kecil-8 {
+      flex: 0 0 66.6666666667%;
+      max-width: 66.6666666667%;
+    }
+    .col-kecil-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+    .col-kecil-10 {
+      flex: 0 0 83.3333333333%;
+      max-width: 83.3333333333%;
+    }
+    .col-kecil-11 {
+      flex: 0 0 91.6666666667%;
+      max-width: 91.6666666667%;
+    }
+    .col-kecil-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .col-besar-1 {
+      flex: 0 0 8.3333333333%;
+      max-width: 8.3333333333%;
+    }
+    .col-besar-2 {
+      flex: 0 0 16.6666666667%;
+      max-width: 16.6666666667%;
+    }
+    .col-besar-3 {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+    .col-besar-4 {
+      flex: 0 0 33.3333333333%;
+      max-width: 33.3333333333%;
+    }
+    .col-besar-5 {
+      flex: 0 0 41.6666666667%;
+      max-width: 41.6666666667%;
+    }
+    .col-besar-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .col-besar-7 {
+      flex: 0 0 58.3333333333%;
+      max-width: 58.3333333333%;
+    }
+    .col-besar-8 {
+      flex: 0 0 66.6666666667%;
+      max-width: 66.6666666667%;
+    }
+    .col-besar-9 {
+      flex: 0 0 75%;
+      max-width: 75%;
+    }
+    .col-besar-10 {
+      flex: 0 0 83.3333333333%;
+      max-width: 83.3333333333%;
+    }
+    .col-besar-11 {
+      flex: 0 0 91.6666666667%;
+      max-width: 91.6666666667%;
+    }
+    .col-besar-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .center {
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+  }

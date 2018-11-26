@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" />
+    <title>Universitas Jember</title>
+
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="brand">
+                            <div class="brand-icon"></div>
+                            <div class="brand-text"></div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <button id="navButton" class="nav-mobile"><i id="navIcon" class="fa fa-bars"></i></button>
+                        <ul id="navigation" class="nav-link">
+                            <li class="nav-data"><a href="index.html">Beranda</a></li>
+                            <!-- <li class="nav-data"><a href="tentang.html">Tentang</a></li> -->
+                            <li class="nav-data"><a href="struktur.html">Struktur</a></li>
+                            <li class="nav-data"><a href="galeri.html">Galeri</a></li>
+                            <li class="nav-data active"><a href="kontak.html">Kontak</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="post">
+                <div class="post-title">Kontak</div>
+                <div class="form-container">
+                    <div class="row">
+                        <div class="col-besar-8">
+                            <div class="row">
+                                <div class="col-besar-12">
+                                    <div class="form-group">
+                                        <label for="nama">Nama</label>
+                                        <input type="text" id="nama" name="nama">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-besar-12">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-besar-12">
+                                    <div class="form-group">
+                                        <label for="kategori">Kategori</label>
+                                        <select name="kategori" id="kategori">
+                                            <option value="0" disabled selected>Pilih Kategori</option>
+                                            <option value="Kritik Saran">Kritik Saran</option>
+                                            <option value="Pertanyaan Seputar Unej">Pertanyaan Seputar Unej</option>
+                                            <option value="Pertanyaan Seputar Beasiswa">Pertanyaan Seputar Beasiswa</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-besar-12">
+                                    <div class="form-group">
+                                        <label for="pesan">Pesan</label>
+                                        <textarea type="text" id="pesan" name="pesan" rows="8"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-besar-12">
+                                    <input type="submit" id="kirimPesan" class="btn btn-primary f-right" value="Kirim">
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-besar-4">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-besar-12">
+                            <div class="table-container">
+                                <table id="table-data" class="table-data">
+                                    <thead>
+                                        <tr>
+                                            <td>No.</td>
+                                            <td>Nama</td>
+                                            <td>Email</td>
+                                            <td>Kategori</td>
+                                            <td>Pesan</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1.</td>
+                                            <td>Zainal Hasan</td>
+                                            <td>zainalhasan19@gmail.com</td>
+                                            <td>Kritik Saran</td>
+                                            <td>Ipsum incididunt consequat id ut duis ea irure sint Lorem proident irure dolore anim velit. Ut ea eiusmod ullamco quis consectetur. Dolor esse ullamco excepteur officia dolore. Nisi nostrud incididunt aute minim dolor in excepteur nulla qui laborum elit adipisicing. Irure ea non officia voluptate anim. Esse minim eu minim pariatur et velit. Deserunt qui nulla fugiat laboris velit.</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-besar-6">
+                        <h2 class="footer">Universitas Jember</h2>
+                        <p class="footer"><i class="fa fa-home"></i> Jl. Kalimantan 37 Jember</p>
+                        <p class="footer"><i class="fa fa-phone"></i> 0331-330224</p>
+                        <p class="footer"><i class="fa fa-envelope-open"></i> humas@unej.ac.id</p>
+                    </div>
+                    <div class="col-besar-6">
+                        <h2 class="footer">Navigation</h2>
+                        <div class="footer-link">
+                            <a href="index.html">Beranda</a>
+                            <!-- <a href="tentang.html">Tentang</a> -->
+                            <a href="struktur.html">Struktur</a>
+                            <a href="galeri.html">Galeri</a>
+                            <a href="kontak.html">Kontak</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-besar-12">Developed by <a href="#">UPT-TIK Unej</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="btn-top"><i class="fa fa-arrow-up"></i></button>
+</body>
+<script>
+    (function () {
+        let btn_top = document.getElementById('btn-top');
+        window.onscroll = function () {
+            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                btn_top.style.display = 'block';
+            } else {
+                btn_top.style.display = 'none';
+            }
+        };
+        btn_top.addEventListener('click', e => {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        })
+
+        document.getElementById('navButton').addEventListener('click', e => {
+            icon = document.getElementById('navIcon');
+            nav = document.querySelectorAll('.nav-data');
+            if (icon.classList.contains('fa-bars')) {
+                icon.classList.replace('fa-bars', 'fa-close');
+                nav.forEach(e => {
+                    e.style.display = 'block';
+                });
+            } else {
+                icon.classList.replace('fa-close', 'fa-bars');
+                nav.forEach(e => {
+                    e.style.display = 'none';
+                });
+            }
+        })
+    })();
+</script>
+<script src="assets/js/main.js"></script>
+</html>
